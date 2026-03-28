@@ -88,7 +88,7 @@ No exceptions. No shortcuts.**
 For each selected advisor, check if a cached profile exists:
 
 ```bash
-ls ~/.claude/skills/mathinvariant-skills/skills/board-of-advisors/references/advisors/[name-slug].md 2>/dev/null
+ls ~/.claude/skills/mathinvariant-skills/board-of-advisors/references/advisors/[name-slug].md 2>/dev/null
 ```
 
 **If profile exists:** Read it and proceed. No research needed.
@@ -142,7 +142,7 @@ should:
    ```
 
 3. Save the profile to:
-   `~/.claude/skills/mathinvariant-skills/skills/board-of-advisors/references/advisors/[name-slug].md`
+   `~/.claude/skills/mathinvariant-skills/board-of-advisors/references/advisors/[name-slug].md`
 
 **Spawn ALL research Agents in parallel** for maximum speed. Display progress:
 ```
@@ -423,7 +423,7 @@ the thinking frameworks, not linguistic authenticity.
 
 ### Profile Cache Management
 
-Profiles accumulate in `~/.claude/skills/mathinvariant-skills/skills/board-of-advisors/references/advisors/` over
+Profiles accumulate in `~/.claude/skills/mathinvariant-skills/board-of-advisors/references/advisors/` over
 time. Each new person researched gets cached permanently. Over many sessions, the user
 builds a growing roster of deeply-researched advisors.
 
