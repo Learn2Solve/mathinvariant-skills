@@ -18,7 +18,7 @@ Then restart Claude Code. Use `/board-of-advisors` to start.
 
 ## Board of Advisors
 
-A multi-agent boardroom skill for high-stake decisions. See [full documentation](skills/board-of-advisors/README.md).
+A multi-agent boardroom skill for high-stake decisions.
 
 **What it does:**
 1. You describe your decision

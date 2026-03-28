@@ -1,5 +1,5 @@
 ---
-name: board
+name: board-of-advisors
 description: >-
   Board of Advisors - convene your personal board of directors for high-stake decisions.
   Dynamically selects the most relevant advisors for your topic, deep-researches each one,
@@ -46,8 +46,8 @@ Do NOT limit yourself to any fixed roster. Choose the people whose thinking fram
 are MOST relevant to THIS specific decision.
 
 **Selection principles:**
-- Each advisor must be a real person (not fictional) with documented writings, speeches,
-  or well-known thinking frameworks
+- Each advisor should be a real person or well-known fictional character with documented
+  writings, speeches, or well-defined thinking frameworks
 - Positions must form a **tension network** (not simple pro/con)
 - Prioritize people with **classic works or famous statements** on topics relevant to
   this decision
@@ -88,7 +88,7 @@ No exceptions. No shortcuts.**
 For each selected advisor, check if a cached profile exists:
 
 ```bash
-ls ~/.claude/skills/board-of-advisors/references/advisors/[name-slug].md 2>/dev/null
+ls ~/.claude/skills/mathinvariant-skills/skills/board-of-advisors/references/advisors/[name-slug].md 2>/dev/null
 ```
 
 **If profile exists:** Read it and proceed. No research needed.
@@ -142,7 +142,7 @@ should:
    ```
 
 3. Save the profile to:
-   `~/.claude/skills/board-of-advisors/references/advisors/[name-slug].md`
+   `~/.claude/skills/mathinvariant-skills/skills/board-of-advisors/references/advisors/[name-slug].md`
 
 **Spawn ALL research Agents in parallel** for maximum speed. Display progress:
 ```
@@ -423,7 +423,7 @@ the thinking frameworks, not linguistic authenticity.
 
 ### Profile Cache Management
 
-Profiles accumulate in `~/.claude/skills/board-of-advisors/references/advisors/` over
+Profiles accumulate in `~/.claude/skills/mathinvariant-skills/skills/board-of-advisors/references/advisors/` over
 time. Each new person researched gets cached permanently. Over many sessions, the user
 builds a growing roster of deeply-researched advisors.
 
